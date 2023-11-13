@@ -125,7 +125,7 @@ while run:
     snake, eating = move_snake(snake, snake_direction, eating)
     snake, apple, score, eating, run = check_collision(snake, apple, score, eating, run)
     
-    # Sleep to give the time to the player to play
+    # Sleep to give time for the player to play
     time.sleep(0.25)
 
 print("Game Over")
